@@ -1,0 +1,190 @@
+body {
+    overflow-x: hidden;
+    font-family:'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.header_home {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+.header_ich {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.header_el {
+    color: white;
+    text-decoration-line: none;
+    font-size: 20pt;
+    font-weight: 400;
+    width: 50%;
+}
+
+.header_el_ich {
+    color: black;
+    text-decoration-line: none;
+    font-size: 20pt;
+    font-weight: 400;
+    width: 50%;
+}
+
+.header_el:nth-child(2) {
+    text-align: end;
+}
+
+.header_el_ich:nth-child(2) {
+    text-align: end;
+}
+
+#galaxie {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.w_btn {
+    border: 2px solid white;
+    border-radius: 5px;
+    position: relative;
+    padding: 5px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 20pt;
+    left: 50%;
+    margin-top: 20%;
+    transform: translateX(-50%);
+}
+
+.w_btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.zw {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 25%;
+    height: 100%;
+    width: 100%;
+}
+
+.skill_titel {
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.skill_info {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+}
+
+.skill_text {
+    font-weight: bold;
+    font-size: 19pt;
+}
+
+.skill_img {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.skill_code {
+    width: 800px;
+}
+
+#react {
+    margin-left: 0;
+    width: 300px;
+}
+
+.weiss {
+    color: black;
+    margin-left: 50px;
+}
+
+.schwarz {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: -8px;
+    width: 101%;
+    background-color: #17142b;
+    color: white;
+}
+
+/* Über mich */
+
+.github_link {
+    width: 100px;
+    height: auto;
+    transition: 0.5s;
+}
+
+.github_link:hover {
+    width: 110px;
+    rotate: 10deg;
+}
+
+.ich_titel {
+    margin-top: 10px;
+}
+
+.link_ich {
+    display: flex;
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#un_ecke {
+    position: absolute;
+    rotate: 40deg;
+    left: 80%;
+    top: 55%;
+}
+
+#d_b_i {
+    font-size: 18pt;
+}
+
+#gamedev_text {
+    display: flex;
+    margin: 20px 20px 0 20px;
+}
+
+#raumshuttle {
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+}
+
+#raumshuttle canvas {
+    border-radius: 5px;
+}
