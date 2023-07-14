@@ -182,6 +182,19 @@ a {
 #gamedev_text {
     display: flex;
     margin: 20px 20px 0 20px;
+    flex-flow: column;
+    align-items: center;
+}
+
+#ue {
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+    transition: 1s;
+}
+
+#ue:hover {
+    rotate: 360deg;
 }
 
 #raumshuttle {
