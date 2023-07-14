@@ -187,6 +187,8 @@ a {
 }
 
 #ue {
+    display: flex;
+    flex-flow: row;
     margin-top: 20px;
     width: 200px;
     height: auto;
@@ -195,6 +197,12 @@ a {
 
 #ue:hover {
     rotate: 360deg;
+}
+
+#blender {
+    display: flex;
+    flex-flow: row;
+    width: 200px;
 }
 
 #raumshuttle {
