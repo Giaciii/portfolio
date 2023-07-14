@@ -177,6 +177,7 @@ a {
 
 #d_b_i {
     font-size: 18pt;
+    text-align: center;
 }
 
 #gamedev_text {
@@ -203,6 +204,25 @@ a {
     display: flex;
     flex-flow: row;
     width: 200px;
+    transition: 1s;
+}
+
+#blender:hover {
+    rotate: -360deg;
+}
+
+#uebl_bild {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    align-items: center;
+}
+
+.ub_bild {
+    display: flex;
+    width: 50%;
+    margin-top: 10px;
+    justify-content: center;
 }
 
 #raumshuttle {
@@ -211,8 +231,13 @@ a {
     border-radius: 5px;
     width: 400px;
     height: 400px;
+    margin-top: 50px;
 }
 
 #raumshuttle canvas {
     border-radius: 5px;
+}
+
+#testobjekt {
+    margin-top: 10px;
 }
